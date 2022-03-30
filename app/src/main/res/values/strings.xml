@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cafe order</string>
+    <string name="hello_title">Добро пожаловать!</string>
+    <string name="edit_name_hint">Введите ваше имя:</string>
+    <string name="edit_password_hint">Введите пароль:</string>
+    <string name="button_create_order_title">СДЕЛАТЬ ЗАКАЗ</string>
 </resources>
