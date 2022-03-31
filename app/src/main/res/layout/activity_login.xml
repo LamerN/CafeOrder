@@ -9,19 +9,19 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewLogo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:src="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textViewHelloTitle"
+        android:id="@+id/textViewWellcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="36dp"
         android:text="@string/hello_title"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textSize="36sp"
         android:textColor="@color/white"
         android:textStyle="bold" />
@@ -30,6 +30,7 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8sp"
         android:inputType="textPersonName"
         android:textColorHint="@color/white"
         android:textStyle="bold"
@@ -39,6 +40,8 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_margin="8sp"
         android:textColorHint="@color/white"
         android:textStyle="bold"
         android:hint="@string/edit_password_hint" />
@@ -47,8 +50,10 @@
         android:id="@+id/buttonCreateOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:onClick="onClickCreateOrder"
         android:backgroundTint="@color/white"
         android:textColor="@color/darkBrown"
         android:text="@string/button_create_order_title"
-        android:textSize="20sp" />
+        android:textSize="24sp" />
 </LinearLayout>

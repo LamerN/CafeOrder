@@ -4,4 +4,5 @@
     <string name="edit_name_hint">Введите ваше имя:</string>
     <string name="edit_password_hint">Введите пароль:</string>
     <string name="button_create_order_title">СДЕЛАТЬ ЗАКАЗ</string>
+    <string name="toast_fill_fields">Все поля должны быть заполнены</string>
 </resources>

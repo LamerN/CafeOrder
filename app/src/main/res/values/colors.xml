@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="darkBrown">#A67800</color>
-    <color name="lightBrown">#A8E4B96D</color>
+    <!--<color name="lightBrown">#A8E4B96D</color>-->
+    <color name="lightBrown">#F2D29B</color>
 </resources>
