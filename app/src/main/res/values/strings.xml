@@ -5,4 +5,24 @@
     <string name="edit_password_hint">Введите пароль:</string>
     <string name="button_create_order_title">СДЕЛАТЬ ЗАКАЗ</string>
     <string name="toast_fill_fields">Все поля должны быть заполнены</string>
+    <string name="image_view_description">Логотип</string>
+    <string name="hello_user">Привет, пользователь! Что желаете?</string>
+    <string name="tea">Чай</string>
+    <string name="coffe">Кофе</string>
+    <string name="additions">Что добавить в ваш напиток?</string>
+    <string name="sugar">Сахар</string>
+    <string name="milk">Молоко</string>
+    <string name="lemon">Лимон</string>
+    <string name="chooseDrink">Выберите вид напитка</string>
+    <string name="buttonSendDescription">Кнопка сделать заказ</string>
+    <string-array name="spinner_coffe_drinks">
+        <item>Американо</item>
+        <item>Эспрессо</item>
+        <item>Латте</item>
+    </string-array>
+    <string-array name="spinner_tea_drinks">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+    </string-array>
 </resources>
