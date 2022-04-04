@@ -46,7 +46,7 @@ public class CreateOrderActivity extends AppCompatActivity {
         textViewHello.setText(String.format(getString(R.string.hello_user), name));
         drink = getString(R.string.tea);
         textViewAdditions.setText(String.format(getString(R.string.additions), drink));    ;
-
+        builderAdditions = new StringBuilder();
     }
 
     public void onClickChooseDrink(View view) {
