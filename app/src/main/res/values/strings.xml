@@ -18,7 +18,7 @@
     <string name="default_name">пользователь</string>
     <string name="default_password">пароль</string>
     <string name="order">Имя: %S\nПароль: %s\nНапиток: %s\nВид напитка: %s\n</string>
-    <string name="need_additions">\"Необходимые добавки: \"</string>
+    <string name="need_additions">Необходимые добавки:\n</string>
     <string-array name="spinner_coffe_drinks">
         <item>Американо</item>
         <item>Эспрессо</item>
